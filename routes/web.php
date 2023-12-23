@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::view('/', 'home')->name('home');
+Route::view('about', 'about')->name('about');
+Route::view('certificates', 'certificates')->name('certificates');
+Route::view('additional-products', 'additional-products')->name('additional-products');
+Route::get('mail', function () {
+    return (new \App\Notifications\Callback(['name' => 'Dima', 'phone' => '+380990359634', 'comment' => 'comment text']))
+        ->toMail('dkravackij@gmail.com');
 });
