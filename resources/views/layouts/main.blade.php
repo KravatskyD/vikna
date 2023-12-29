@@ -70,6 +70,9 @@
                                 <a class="nav-link" href="{{ route('certificates') }}">Сертифікати</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="{{ route('our-projects') }}">Наші проекти</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#contactForm">Зв'язатися з нами</a> {{-- TODO якір на контактну форму скролом --}}
                             </li>
                         </ul>
@@ -87,15 +90,17 @@
             <div class="contact_nav">
                 <a href="">
                     <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>Зателефонуйте нам : +380ХХХ-ХХ-ХХ</span>
+                    <span>Зателефонуйте нам :</span>
+                    <span>+380 (093) 89 43511 Анна</span> {{-- TODO frontend --}}
+                    <span>+380 (050) 16 91182 Ніка</span>
                 </a>
                 <a href="">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span>Напишіть нам : demo@gmail.com</span>
+                    <span>Напишіть нам : AVcompanyAV2020@gmail.com</span>
                 </a>
                 <a href="">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span>Ми знаходимося: м. Миколаїв вул. 3-тя Продольна 22</span>
+                    <span>Ми знаходимося: м. Миколаїв, вул. 3 Поздовжня, 22</span>
                 </a>
             </div>
         </div>
