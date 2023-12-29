@@ -51,15 +51,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
                         <ul class="navbar-nav  ">
-                            @if($notHomePage)
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="{{ route('home') }}">Головна<span class="sr-only">(current)</span></a>
-                                </li>
-                            @else
-                                <li class="nav-item ">
-                                    <span class="nav-link">Головна<span class="sr-only">(current)</span></span>
-                                </li>
-                            @endif
+                            <li class="nav-item ">
+                                <a class="nav-link" href="{{ route('calculator') }}">Калькулятор<span class="sr-only">(current)</span></a>
+                            </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="{{ route('about') }}">Про нас</a>
                             </li>

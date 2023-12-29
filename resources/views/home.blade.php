@@ -72,8 +72,6 @@
     <!-- end slider section -->
 @endsection
 @section('content')
-    <!-- furniture section -->
-
     <section class="furniture_section layout_padding">
         <div class="container">
             <div class="heading_container">
@@ -350,7 +348,7 @@
         </div>
     </section>
     <!-- contact section -->
-    <section class="contact_section  long_section">
+    <section class="contact_section long_section">
         @include('callback-form')
     </section>
     <!-- end contact section -->
