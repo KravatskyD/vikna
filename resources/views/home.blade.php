@@ -9,7 +9,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="img-box">
-                                    <img src="assets/images/home-head-slider/1.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-head-slider/1.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -20,7 +20,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="img-box">
-                                    <img src="assets/images/home-head-slider/2.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-head-slider/2.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="img-box">
-                                    <img src="assets/images/home-head-slider/3.jpeg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-head-slider/3.jpeg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="img-box">
-                                    <img src="assets/images/home-head-slider/4.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-head-slider/4.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="img-box">
-                                    <img src="assets/images/home-head-slider/5.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-head-slider/5.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="box">
                         <div class="img-box">
-                            <img src="assets/images/products/1.png" alt="">
+                            <img src="{{ asset('assets/images/products/1.png') }}" alt="">
                         </div>
                         <div class="detail-box">
                             <h5>
@@ -108,7 +108,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="box">
                         <div class="img-box">
-                            <img src="assets/images/products/2.png" alt="">
+                            <img src="{{ asset('assets/images/products/2.png') }}" alt="">
                         </div>
                         <div class="detail-box">
                             <h5>
@@ -128,7 +128,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="box">
                         <div class="img-box">
-                            <img src="assets/images/products/3.png" alt="">
+                            <img src="{{ asset('assets/images/products/3.png') }}" alt="">
                         </div>
                         <div class="detail-box">
                             <h5>
@@ -148,7 +148,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="box">
                         <div class="img-box">
-                            <img src="assets/images/products/4.png" alt="">
+                            <img src="{{ asset('assets/images/products/4.png') }}" alt="">
                         </div>
                         <div class="detail-box">
                             <h5>
@@ -168,7 +168,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="box">
                         <div class="img-box">
-                            <img src="assets/images/products/5.jpg" alt="">
+                            <img src="{{ asset('assets/images/products/5.jpg') }}" alt="">
                         </div>
                         <div class="detail-box">
                             <h5>
@@ -188,7 +188,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="box">
                         <div class="img-box">
-                            <img src="assets/images/products/6.jpg" alt="">
+                            <img src="{{ asset('assets/images/products/6.jpg') }}" alt="">
                         </div>
                         <div class="detail-box">
                             <h5>
@@ -219,7 +219,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-box">
-                        <img src="assets/images/logo.png" alt="">
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -294,7 +294,7 @@
                             </div>
                             <div class="col-md-7">
                                 <div class="img-box">
-                                    <img src="assets/images/home-down-slider/1.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-down-slider/1.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -303,7 +303,7 @@
                         <div class="row">
                             <div class="col-md-12 mx-auto">
                                 <div class="img-box">
-                                    <img src="assets/images/home-down-slider/2.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-down-slider/2.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -312,7 +312,7 @@
                         <div class="row">
                             <div class="col-md-12 mx-auto">
                                 <div class="img-box">
-                                    <img src="assets/images/home-down-slider/3.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-down-slider/3.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -321,7 +321,7 @@
                         <div class="row">
                             <div class="col-md-12 mx-auto">
                                 <div class="img-box">
-                                    <img src="assets/images/home-down-slider/4.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-down-slider/4.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -330,7 +330,7 @@
                         <div class="row">
                             <div class="col-md-12 mx-auto">
                                 <div class="img-box">
-                                    <img src="assets/images/home-down-slider/5.jpg.webp" alt="">
+                                    <img src="{{ asset('assets/images/home-down-slider/5.jpg.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
