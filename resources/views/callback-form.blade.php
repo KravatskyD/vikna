@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="contactForm">
     <div class="row">
         <div class="col-md-6">
             <div class="form_container">

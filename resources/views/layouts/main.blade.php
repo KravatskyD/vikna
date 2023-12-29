@@ -57,7 +57,7 @@
                                 <a class="nav-link" href="{{ route('certificates') }}">Сертифікати</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Зв'язатися з нами</a> {{-- TODO якір на контактну форму --}}
+                                <a class="nav-link" href="#contactForm">Зв'язатися з нами</a> {{-- TODO якір на контактну форму скролом --}}
                             </li>
                         </ul>
                     </div>
