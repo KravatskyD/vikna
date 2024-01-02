@@ -5,78 +5,71 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/additional-products/1.jpg.webp" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/additional-products/1.jpg.webp" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/additional-products/2.jpeg.webp" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/additional-products/2.jpeg.webp" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/additional-products/3.jpg.webp" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/additional-products/3.jpg.webp" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/additional-products/4.jpg.webp" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/additional-products/4.jpg.webp" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/additional-products/5.jpeg.webp" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/additional-products/5.jpeg.webp" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/additional-products/6.jpg.webp" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/additional-products/6.jpg.webp" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/additional-products/7.jpeg.webp" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/additional-products/7.jpeg.webp" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>

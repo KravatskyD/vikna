@@ -5,100 +5,91 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/1.jpg.webp" alt="Фасад будівлі">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/1.jpg.webp" alt="Фасад будівлі">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/2.jpg.webp" alt="Приватний будинок">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/2.jpg.webp" alt="Приватний будинок">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/3.jpg.webp" alt="Їдальня">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/3.jpg.webp" alt="Їдальня">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/4.jpg.webp" alt="Бізнес площа">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/4.jpg.webp" alt="Бізнес площа">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/5.jpg.webp" alt="Інший приватний будинок">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/5.jpg.webp" alt="Інший приватний будинок">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/6.jpg.webp" alt="Приватний будинок">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/6.jpg.webp" alt="Приватний будинок">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/7.jpg.webp" alt="Вхідні двері">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/7.jpg.webp" alt="Вхідні двері">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/8.jpg.webp" alt="Двері">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/8.jpg.webp" alt="Двері">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="assets/images/our-projects/9.jpg.webp" alt="Лоджія">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="assets/images/our-projects/9.jpg.webp" alt="Лоджія">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
@@ -111,6 +102,8 @@
                 <li data-target="#customCarousel" data-slide-to="4"></li>
                 <li data-target="#customCarousel" data-slide-to="5"></li>
                 <li data-target="#customCarousel" data-slide-to="6"></li>
+                <li data-target="#customCarousel" data-slide-to="7"></li>
+                <li data-target="#customCarousel" data-slide-to="8"></li>
             </ol>
         </div>
     </section>

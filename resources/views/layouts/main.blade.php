@@ -67,7 +67,7 @@
                                 <a class="nav-link" href="{{ route('our-projects') }}">Наші проекти</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contactForm">Зв'язатися з нами</a> {{-- TODO якір на контактну форму скролом --}}
+                                <a class="nav-link" href="#contactForm">Зв'язатися з нами</a>
                             </li>
                         </ul>
                     </div>
@@ -82,20 +82,22 @@
     <section class="info_section long_section">
         <div class="container">
             <div class="contact_nav">
-                <a href="">
+                <div class="contact_nav-item" >
                     <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>Зателефонуйте нам :</span>
-                    <span>+380 (093) 89 43511 Анна</span> {{-- TODO frontend --}}
-                    <span>+380 (050) 16 91182 Ніка</span>
-                </a>
-                <a href="">
+                    <div>Зателефонуйте нам:</div>
+                    <a href="tel:+3800938943511">+380 (093) 89 43511 Анна</a>
+                    <a href="+3800501691182">+380 (050) 16 91182 Ніка</a>
+                </div>
+                <div class="contact_nav-item" href="">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span>Напишіть нам : AVcompanyAV2020@gmail.com</span>
-                </a>
-                <a href="">
+                    <div>Напишіть нам:</div>
+                    <div><a href="mailto:AVcompanyAV2020@gmail.com">AVcompanyAV2020@gmail.com</a></div>
+                </div>
+                <div class="contact_nav-item" href="">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span>Ми знаходимося: м. Миколаїв, вул. 3 Поздовжня, 22</span>
-                </a>
+                    <div>Ми знаходимося:</div>
+                    <div>м. Миколаїв, вул. 3 Поздовжня, 22</div>
+                </div>
             </div>
         </div>
     </section>

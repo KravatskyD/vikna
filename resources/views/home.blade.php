@@ -5,57 +5,52 @@
         <div id="customCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-head-slider/1.jpg.webp') }}" alt="">
-                                </div>
-                            </div>
+                    <div class="container">
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-head-slider/1.jpg.webp') }}" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-head-slider/2.jpg.webp') }}" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-head-slider/3.jpeg.webp') }}" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-head-slider/4.jpg.webp') }}" alt="">
+                        </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-head-slider/2.jpg.webp') }}" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-head-slider/5.jpg.webp') }}" alt="">
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-head-slider/3.jpeg.webp') }}" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-head-slider/4.jpg.webp') }}" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-head-slider/5.jpg.webp') }}" alt="">
-                                </div>
-                            </div>
+                        <div class="carousel-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
@@ -252,7 +247,7 @@
     <!-- client section -->
     <section class="client_section layout_padding-bottom">
         <div class="container">
-            <div class="heading_container">
+            <div class="heading_container pt-5 pb-5">
                 <h2>
                     Матеріали і комплектуючі
                 </h2>
@@ -261,9 +256,10 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-md-5">
+                            <div class="col-lg-5">
                                 <div class="detail-box">
-                                    <div class="wysiwyg js-wysiwyg wysiwyg--seo"><div class="elementor-element elementor-element-be6e055 elementor-widget elementor-widget-heading" data-id="be6e055" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="wysiwyg js-wysiwyg wysiwyg--seo">
+                                        <div class="elementor-element elementor-element-be6e055 elementor-widget elementor-widget-heading" data-id="be6e055" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h1 class="elementor-heading-title elementor-size-default">Framex 58</h1>
                                             </div>
@@ -290,7 +286,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-lg-7">
                                 <div class="img-box">
                                     <img src="{{ asset('assets/images/home-down-slider/1.jpg.webp') }}" alt="">
                                 </div>
@@ -298,39 +294,23 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-12 mx-auto">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-down-slider/2.jpg.webp') }}" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-down-slider/2.jpg.webp') }}" alt="">
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-12 mx-auto">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-down-slider/3.jpg.webp') }}" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-down-slider/3.jpg.webp') }}" alt="">
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-12 mx-auto">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-down-slider/4.jpg.webp') }}" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-down-slider/4.jpg.webp') }}" alt="">
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-12 mx-auto">
-                                <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-down-slider/5.jpg.webp') }}" alt="">
-                                </div>
-                            </div>
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-down-slider/5.jpg.webp') }}" alt="">
                         </div>
                     </div>
                 </div>
