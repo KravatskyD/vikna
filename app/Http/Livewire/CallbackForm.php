@@ -22,7 +22,7 @@ class CallbackForm extends Component
 
     public bool $agree = true;
 
-    public bool $showSuccess = true;
+    public bool $showSuccess = false;
 
     public function mount()
     {
