@@ -66,7 +66,7 @@
                 <div class="carousel-item">
                     <div class="container ">
                         <div class="img-box">
-                            <img src="assets/images/additional-products/7.jpeg.webp" alt="">
+                            <img src="assets/images/additional-products/7.jpg.webp" alt="">
                         </div>
                         <div class="carousel-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -85,12 +85,5 @@
             </ol>
         </div>
     </section>
-@endsection
-@section('content')
-    <!-- contact section -->
-    <section class="contact_section  long_section">
-        @include('callback-form')
-    </section>
-    <!-- end contact section -->
 @endsection
 

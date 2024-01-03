@@ -10,7 +10,6 @@
                             <img src="{{ asset('assets/images/home-head-slider/1.jpg.webp') }}" alt="">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </div>
                     </div>
                 </div>
@@ -20,27 +19,27 @@
                             <img src="{{ asset('assets/images/home-head-slider/2.jpg.webp') }}" alt="">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            ВІКНА ТА ДВЕРІ ВІД ВИРОБНИКА
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container">
                         <div class="img-box">
-                            <img src="{{ asset('assets/images/home-head-slider/3.jpeg.webp') }}" alt="">
+                            <img src="{{ asset('assets/images/home-head-slider/3.jpg.webp') }}" alt="">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Втілюємо ваші проекти у життя
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container">
                         <div class="img-box">
-                            <img src="{{ asset('assets/images/home-head-slider/4.jpg.webp') }}" alt="">
+                            <img src="{{ asset('assets/images/home-head-slider/4.jpeg.webp') }}" alt="">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Простір, який ти змінюєш
                         </div>
                     </div>
                 </div>
@@ -50,7 +49,7 @@
                             <img src="{{ asset('assets/images/home-head-slider/5.jpg.webp') }}" alt="">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Затишок у кожному куточку оселі
                         </div>
                     </div>
                 </div>
@@ -288,7 +287,7 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="img-box">
-                                    <img src="{{ asset('assets/images/home-down-slider/1.jpg.webp') }}" alt="">
+                                    <img src="{{ asset('assets/images/home-down-slider/1_1.png.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -313,6 +312,11 @@
                             <img src="{{ asset('assets/images/home-down-slider/5.jpg.webp') }}" alt="">
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="img-box">
+                            <img src="{{ asset('assets/images/home-down-slider/6.jpg.webp') }}" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel_btn-container mt-3">
                     <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
@@ -327,10 +331,5 @@
             </div>
         </div>
     </section>
-    <!-- contact section -->
-    <section class="contact_section long_section">
-        @include('callback-form')
-    </section>
-    <!-- end contact section -->
 @endsection
 

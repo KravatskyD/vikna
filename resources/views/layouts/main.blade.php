@@ -78,6 +78,12 @@
     </div>
     @yield('content', '')
 
+    <!-- contact section -->
+    <section class="contact_section  long_section">
+        @include('callback-form')
+    </section>
+    <!-- end contact section -->
+
     <!-- info section -->
     <section class="info_section long_section">
         <div class="container">

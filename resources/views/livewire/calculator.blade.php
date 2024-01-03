@@ -21,11 +21,11 @@
             </div>
             <div class="form-group">
                 <label for="width">Ширина (від {{ $minWidth }} до {{ $maxWidth }})мм</label>
-                <input id="width" type="number" class="form-control" wire:model.debounce.300ms="width" min="{{ $minWidth }}" max="{{ $maxWidth }}">
+                <input id="width" type="number" class="form-control" wire:model.debounce.1500ms="width" min="{{ $minWidth }}" max="{{ $maxWidth }}">
             </div>
             <div class="form-group">
                 <label for="height">Висота (від {{ $minHeight }} до {{ $maxHeight }})мм</label>
-                <input id="height" type="number" class="form-control" wire:model.debounce.300ms="height" min="{{ $minHeight }}" max="{{ $maxHeight }}">
+                <input id="height" type="number" class="form-control" wire:model.debounce.1500ms="height" min="{{ $minHeight }}" max="{{ $maxHeight }}">
             </div>
             <div class="form-check">
                 <label class="form-check-label" >

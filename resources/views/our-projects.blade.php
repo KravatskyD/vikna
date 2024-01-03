@@ -9,7 +9,7 @@
                             <img src="assets/images/our-projects/1.jpg.webp" alt="Фасад будівлі">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Працюємо по всій Україні (Нібулон, м. Запоріжжя)
                         </div>
                     </div>
                 </div>
@@ -19,7 +19,8 @@
                             <img src="assets/images/our-projects/2.jpg.webp" alt="Приватний будинок">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Мультифункціональне скло –
+                            ідеальне рішення для зими і літа
                         </div>
                     </div>
                 </div>
@@ -29,7 +30,8 @@
                             <img src="assets/images/our-projects/3.jpg.webp" alt="Їдальня">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Тонуюча плівка для вікон –
+                            як захист від сторонніх очей
                         </div>
                     </div>
                 </div>
@@ -39,7 +41,7 @@
                             <img src="assets/images/our-projects/4.jpg.webp" alt="Бізнес площа">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Вікна – це очі будівлі в них віддзеркалює душа
                         </div>
                     </div>
                 </div>
@@ -49,7 +51,7 @@
                             <img src="assets/images/our-projects/5.jpg.webp" alt="Інший приватний будинок">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Містечко у Миколаївській області
                         </div>
                     </div>
                 </div>
@@ -59,7 +61,7 @@
                             <img src="assets/images/our-projects/6.jpg.webp" alt="Приватний будинок">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Шпросс добавить теплоти і декору в вашу оселю
                         </div>
                     </div>
                 </div>
@@ -69,7 +71,9 @@
                             <img src="assets/images/our-projects/7.jpg.webp" alt="Вхідні двері">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Наша команда виготовить
+                            надійні двері для безпеки
+                            вашого дому
                         </div>
                     </div>
                 </div>
@@ -79,7 +83,8 @@
                             <img src="assets/images/our-projects/8.jpg.webp" alt="Двері">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Офісні двері бувають не тільки
+                            білого кольору
                         </div>
                     </div>
                 </div>
@@ -89,7 +94,9 @@
                             <img src="assets/images/our-projects/9.jpg.webp" alt="Лоджія">
                         </div>
                         <div class="carousel-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Професійно підібране рішення
+                            для вашої тераси – це запорука
+                            надійності та енергозбереження
                         </div>
                     </div>
                 </div>
@@ -107,12 +114,5 @@
             </ol>
         </div>
     </section>
-@endsection
-@section('content')
-    <!-- contact section -->
-    <section class="contact_section  long_section">
-        @include('callback-form')
-    </section>
-    <!-- end contact section -->
 @endsection
 

@@ -43,10 +43,3 @@
     </section>
     <!-- end slider section -->
 @endsection
-@section('content')
-    <section class="contact_section  long_section">
-        @include('callback-form')
-    </section>
-    <!-- end contact section -->
-@endsection
-
