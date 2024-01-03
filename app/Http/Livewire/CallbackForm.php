@@ -2,8 +2,8 @@
 
 namespace App\Http\Livewire;
 
-use App\Notifications\Callback;
-use Illuminate\Notifications\Notification;
+use App\Mail\Callback;
+use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 use Spatie\Honeypot\Http\Livewire\Concerns\HoneypotData;
 use Spatie\Honeypot\Http\Livewire\Concerns\UsesSpamProtection;
@@ -22,6 +22,8 @@ class CallbackForm extends Component
 
     public bool $agree = true;
 
+    public bool $showSuccess = true;
+
     public function mount()
     {
         $this->extraFields = new HoneypotData();
@@ -34,22 +36,27 @@ class CallbackForm extends Component
 
     public function submit()
     {
-        $this->protectAgainstSpam();
-
         $this->validate(...$this->rules());
 
-        Notification::send(
-            env('MANAGER_MAIL'),
-            new Callback([
-                'name' => $this->name,
-                'phone' => $this->phone,
-                'comment' => $this->comment,
-            ])
-        );
+        $this->protectAgainstSpam();
+
+        Mail::to(env('MAIL_FROM_ADDRESS'))
+            ->send(
+                new Callback([
+                    'name' => $this->name,
+                    'phone' => $this->phone,
+                    'comment' => $this->comment,
+                ])
+            );
+
+        $this->showSuccess = true;
+
+        $this->reset(['phone', 'name', 'comment']);
     }
 
     public function updated($field)
     {
+        $this->showSuccess = false;
         $this->validateOnly($field, ...$this->rules());
     }
 
@@ -58,11 +65,13 @@ class CallbackForm extends Component
         return [
             [
                 'name' => 'required|string|min:3',
-                'phone' => 'required|string|regex',
+                'phone' => 'required|string|regex:/^\+380\d{9}$/',
                 'comment' => 'nullable|string',
 //                'agree' => 'required|accepted',
             ],
-            [],
+            [
+                'phone.regex' => 'Телефон має бути у форматі +380XXXXXXXXX',
+            ],
             [
                 'name' => 'Імʼя',
                 'phone' => 'Телефон',
