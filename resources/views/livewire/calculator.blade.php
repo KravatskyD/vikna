@@ -50,7 +50,7 @@
         </div>
         <div class="col-12 col-md-5">
             <div class="img-box mt-4 mt-md-0 text-center">
-                <img src="{{ $images[$this->selectedType] }}" alt="{{ $selectedType }}">
+                <img class="img-calculator" src="{{ $images[$this->selectedType] }}" alt="{{ $selectedType }}">
             </div>
         </div>
     </div>
