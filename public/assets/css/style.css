@@ -912,6 +912,7 @@ a:focus {
 }
 
 .img-calculator {
-  width: 100%;
+  max-width: 100%;
+  max-height: 360px;
 }
 /*# sourceMappingURL=style.css.map */
